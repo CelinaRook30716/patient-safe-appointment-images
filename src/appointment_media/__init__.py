@@ -1,0 +1,1 @@
+"""Appointment image compression service."""

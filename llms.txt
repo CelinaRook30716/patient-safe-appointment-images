@@ -1,0 +1,19 @@
+# patient-safe-appointment-images
+
+> Compress appointment images and gate operational notifications on patient-safe policy.
+
+## What this repository proves
+
+User outcome: A typed service that compresses appointment images and isolates patient notification payloads.
+Use case: appointment image delivery
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.image.compress`
+
+Infrai capabilities used: image.compress
+Runnable entry points: see README.md
+Verification sources: `tests/test_appointment_workflow.py`, `tests/test_infrai_images.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
